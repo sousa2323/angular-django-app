@@ -34,10 +34,6 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
-    # apps
-    'webs'
-    'core'
-    'api'
     # django
     'django.contrib.admin',
     'django.contrib.auth',
@@ -52,6 +48,10 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'django_filter',
     'rest_framework',
+     # apps
+    'webs',
+    'core',
+    'api',
 ]
 
 MIDDLEWARE = [
