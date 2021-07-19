@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    'django_filter',
+    'django_filters',
     'rest_framework',
      # apps
     'webs',
@@ -151,3 +151,5 @@ LOGIN_REDIRECT_URL = '/'
 ACCOUNT_SESSION_REMEMBER = True
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
