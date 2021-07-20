@@ -29,7 +29,7 @@ export class CourseListComponent implements OnInit{
                 code: 'LKL-8796',
                 duration: 80,
                 rating: 4,
-                releaseDate: 'Octuber, 2, 2020'
+                releaseDate: 'October, 2, 2020'
             }
         ]
     }
