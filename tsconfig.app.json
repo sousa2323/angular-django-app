@@ -6,10 +6,10 @@
     "types": []
   },
   "files": [
-    "src/main.ts",
-    "src/polyfills.ts"
+    "webs/src/main.ts",
+    "webs/src/polyfills.ts"
   ],
   "include": [
-    "src/**/*.d.ts"
+    "webs/src/**/*.d.ts"
   ]
 }
