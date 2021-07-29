@@ -6,6 +6,6 @@ import { Pipe, PipeTransform } from "@angular/core";
 export class ReplacePipe implements PipeTransform{
 
         transform(value: string, char: string, valueToReplace: string) {
-            return valueToReplace.replace(char, valueToReplace);
+            return value.replace(char, valueToReplace);
         }
 }
